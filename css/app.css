@@ -1,3 +1,13 @@
 div{
-  border: 2px solid red;
+  order: 2px solid red;
 }
+.first li:nth-child(2n+1){
+  background-color: rgb(217, 217, 226);
+}
+
+.first li:hover{
+  box-shadow: 0 0 5px 1px silver;
+}
+ .img{
+   width: 50%;
+ }
