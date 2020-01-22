@@ -1,8 +1,11 @@
 div{
   order: 2px solid red;
 }
+.first li a{
+  color: white;
+}
 .first li:nth-child(2n+1){
-  background-color: rgb(217, 217, 226);
+  background-color: #f16c5a;
 }
 
 .first li:hover{
@@ -11,3 +14,30 @@ div{
  .img{
    width: 50%;
  }
+
+.bordebajo{
+  border-bottom: 1px solid rgb(217, 217, 226);
+}
+body{
+  background-image: url(../img/background.jpg);
+  background-size: contain;
+}
+
+.fotofondo{
+  background-color: rgba(233, 168, 160, 0.9);
+}
+.menucolor{
+  background-color: #f16c5a;
+  color: white;
+  border: .1px solid #fa988b;
+}
+.menucolor:hover{
+
+
+    border: solid 2px #f16c5a;
+    background-color: #ffa498;
+    color: white;
+}
+.colorletra{
+  color: white;
+}
