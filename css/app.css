@@ -9,7 +9,7 @@ div{
 }
 
 .first li:hover{
-  box-shadow: 0 0 5px 1px silver;
+  box-shadow: 0 0 5px 2px silver;
 }
  .img{
    width: 50%;
@@ -30,14 +30,29 @@ body{
   background-color: #f16c5a;
   color: white;
   border: .1px solid #fa988b;
+  transition: 0.5s background-color;
 }
-.menucolor:hover{
 
+.colorboton:visited{
+  background: #f16c5a;
+}
 
-    border: solid 2px #f16c5a;
+.menucolor:hover, .colorboton:hover{
+
     background-color: #ffa498;
     color: white;
 }
 .colorletra{
   color: white;
+}
+
+.colorboton{
+  background-color: #f16c5a;
+}
+
+@media (max-width: 900px){
+
+  .img {
+    width: 80%;
+  }
 }
