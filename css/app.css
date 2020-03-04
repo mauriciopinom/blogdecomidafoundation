@@ -1,6 +1,4 @@
-div{
-  order: 2px solid red;
-}
+
 .first li a{
   color: white;
 }
@@ -48,6 +46,13 @@ body{
 
 .colorboton{
   background-color: #f16c5a;
+}
+
+div{
+  border: 2px solid blue;
+}
+nav{
+  border: 2px solid green;
 }
 
 @media (max-width: 900px){
