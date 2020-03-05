@@ -48,12 +48,7 @@ body{
   background-color: #f16c5a;
 }
 
-div{
-  border: 2px solid blue;
-}
-nav{
-  border: 2px solid green;
-}
+
 
 @media (max-width: 900px){
 
